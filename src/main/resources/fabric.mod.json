@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "simplerandomblockplacing",
+  "version": "${version}",
+  "name": "SimpleRandomBlockPlacing",
+  "description": "Randomize selected slots in hot bar",
+  "authors": [
+    "DimasKama"
+  ],
+  "contact": {
+    "sources": "https://github.com/DimasKama/SimpleRandomBlockPlacing"
+  },
+  "license": "MIT",
+  "icon": "assets/simplerandomblockplacing/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.dimaskama.simplerandomblockplacing.client.SRBPMod"
+    ]
+  },
+  "mixins": [
+    "simplerandomblockplacing.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
