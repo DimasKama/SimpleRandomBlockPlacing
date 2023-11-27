@@ -1,0 +1,6 @@
+{
+  "srbp": "Simple Random Block Placing",
+  "commands.srbp.on": "SimpleRandomBlockPlacing включён",
+  "commands.srbp.off": "SimpleRandomBlockPlacing выключен",
+  "options.srbp.enabled": "Включён"
+}
